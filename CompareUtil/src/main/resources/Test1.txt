@@ -1,0 +1,7 @@
+http://dummy.restapiexample.com/api/v1/employees
+http://dummy.restapiexample.com/api/v1/employee/1
+http://dummy.restapiexample.com/api/v1/create
+http://dummy.restapiexample.com/api/v1/update/21
+http://dummy.restapiexample.com/api/v1/update/2
+http://dummy.restapiexample.com/api/v1/create
+Sample6
