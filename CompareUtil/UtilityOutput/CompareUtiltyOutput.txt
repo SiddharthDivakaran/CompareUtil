@@ -1,0 +1,21 @@
+http://dummy.restapiexample.com/api/v1/employees  equals  http://dummy.restapiexample.com/api/v1/employees
+http://dummy.restapiexample.com/api/v1/employee/1  not equals  http://dummy.restapiexample.com/api/v1/employeed
+http://dummy.restapiexample.com/api/v1/create  equals  http://dummy.restapiexample.com/api/v1/create
+http://dummy.restapiexample.com/api/v1/update/21  equals  http://dummy.restapiexample.com/api/v1/update/21
+http://dummy.restapiexample.com/api/v1/update/2  equals  http://dummy.restapiexample.com/api/v1/update/2
+http://dummy.restapiexample.com/api/v1/create  not equals  Sample6
+Sample6  not equals  null
+http://dummy.restapiexample.com/api/v1/employees  equals  http://dummy.restapiexample.com/api/v1/employees
+http://dummy.restapiexample.com/api/v1/employee/1  not equals  http://dummy.restapiexample.com/api/v1/employeed
+http://dummy.restapiexample.com/api/v1/create  equals  http://dummy.restapiexample.com/api/v1/create
+http://dummy.restapiexample.com/api/v1/update/21  equals  http://dummy.restapiexample.com/api/v1/update/21
+http://dummy.restapiexample.com/api/v1/update/2  equals  http://dummy.restapiexample.com/api/v1/update/2
+http://dummy.restapiexample.com/api/v1/create  not equals  Sample6
+Sample6  not equals  null
+http://dummy.restapiexample.com/api/v1/employees  equals  http://dummy.restapiexample.com/api/v1/employees
+http://dummy.restapiexample.com/api/v1/employee/1  not equals  http://dummy.restapiexample.com/api/v1/employeed
+http://dummy.restapiexample.com/api/v1/create  equals  http://dummy.restapiexample.com/api/v1/create
+http://dummy.restapiexample.com/api/v1/update/21  equals  http://dummy.restapiexample.com/api/v1/update/21
+http://dummy.restapiexample.com/api/v1/update/2  equals  http://dummy.restapiexample.com/api/v1/update/2
+http://dummy.restapiexample.com/api/v1/create  not equals  Sample6
+Sample6  not equals  null

@@ -11,12 +11,13 @@ public class Task implements Runnable {
 	}
 
 	public void run() {
-
+        CompareUtilityLogger compLog = new CompareUtilityLogger();
 		Compare comp = new Compare();
 		for (List<String> url : urls) {
-			System.out.println(
-					comp.compare(url.get(0), url.get(1)) ? "" + url.get(0) + "" + "  equals  " + "" + url.get(1) + ""
-							: "" + url.get(0) + "" + "  not equals  " + "" + url.get(1) + "");
+			String compResult=comp.compare(url.get(0), url.get(1)) ? "" + url.get(0) + "" + "  equals  " + "" + url.get(1) + ""
+					: "" + url.get(0) + "" + "  not equals  " + "" + url.get(1) + "";
+			System.out.println(compResult);
+			compLog.logOutput(compResult);
 		}
 
 	}
